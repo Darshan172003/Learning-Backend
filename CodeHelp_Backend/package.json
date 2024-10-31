@@ -1,0 +1,23 @@
+{
+  "name": "codehelp_backend",
+  "version": "1.0.0",
+  "description": "Learning Backend From Love Babber - CodeHelp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "backend"
+  ],
+  "author": "Darshan Y Patil",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
